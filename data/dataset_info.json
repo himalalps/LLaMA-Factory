@@ -714,5 +714,47 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "relevant_news": {
+    "file_name": "/mnt/unium/v-haoyutang/relevant_news/dataset/train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "relevant_news_sft": {
+    "file_name": "/mnt/unium/v-haoyutang/relevant_news/dataset/train_new.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "gem_sft": {
+    "file_name": "/mnt/unium/v-haoyutang/gem/dataset/sft/with_severity.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
   }
 }
